@@ -81,4 +81,5 @@ A decompression script is available in the root of the alpha-sandbox directory t
 While folders should generally contain all relevant data, there may be instances where certain sensor modalities are missing due to temporary hardware unavailability.
 
 - **Dataset Size:** Approximately 60GB unzipped; an additional 10GB if all point clouds are decompressed.
+- **Community:** Reach out to us and find more information on our [Discourse](https://community.xri.online/).
 - **Support:** For assistance, contact [gary@xri.online](mailto:gary@xri.online) or [nathaniel@xri.online](mailto:nathaniel@xri.online).
