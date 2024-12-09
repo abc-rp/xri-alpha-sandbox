@@ -17,8 +17,8 @@ It should also be noted that generally the edges of even the rectified images po
 At some point for a brief period during alpha data capture in winter 2023-24, the RGB cameras were swapped from left to right without this being recorded. They were then swapped back. Therefore, it is possible that in some UPRNs have RGB images are facing the away from the UPRNs. The raw data was screened before the alpha-sandbox was chosen so this should not be the case but it is a possibility to be aware of as we expand the alpha-sandbox dataset.
 
 <p align="center">
-  <img src="images/rgb_2024-03-27-08-54-19.jpeg" alt="Image 1" width="45%">
-  <img src="images/sam_mask_rgb_2024-03-27-08-54-19.jpeg" alt="Image 2" width="45%">
+  <img src="images/rgb_2024-03-27-08-54-19.jpeg" alt="rgb image" width="45%">
+  <img src="images/sam_mask_rgb_2024-03-27-08-54-19.jpeg" alt="sam rgb image" width="45%">
 </p>
 
 ## IR
@@ -26,3 +26,7 @@ At some point for a brief period during alpha data capture in winter 2023-24, th
 Similarly the IR images have been rectified to correct for distortion for their own optics setups. Similarly rectification parameters were only calculated for two out of four cameras, same as the RGB setup.
 
 Unlike the RGB however the outermost regions of the IR images and temperature arrays have been masked out, this is due to hot edges due to the IR detector heating itself up during operation. In the temperature arrays the masked areas are NaN elements in the numpy array.
+
+<p align="center">
+  <img src="images/ir_color_2024-03-05-20-29-54.png  " alt="rgb image" width="45%">
+</p>
