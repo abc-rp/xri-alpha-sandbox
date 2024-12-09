@@ -3,7 +3,12 @@
 import os
 import brotli
 import ray
+import logging
+import argparse
 from multiprocessing import cpu_count
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Initialize Ray with half the available CPUs
 ray.init(num_cpus=max(1, cpu_count() // 2))
@@ -33,24 +38,33 @@ def decompress_and_replace(input_file):
         # Remove the original .pcd.br file
         os.remove(input_file)
 
-        print(f"Decompressed and replaced: {input_file} -> {output_file}")
+        logging.info(f"Decompressed and replaced: {input_file} -> {output_file}")
     except Exception as e:
-        print(f"Error processing {input_file}: {e}")
+        logging.error(f"Error processing {input_file}: {e}")
 
-def find_and_replace_pcd_br():
+def find_and_replace_pcd_br(directory):
     """
-    Finds all Brotli-compressed .pcd.br files in the current directory recursively,
+    Finds all Brotli-compressed .pcd.br files in the specified directory recursively,
     decompresses them, and replaces the original files with the decompressed .pcd files.
+
+    :param directory: Path to the directory to search for .pcd.br files
     """
-    # Use the current directory as the root
-    root_directory = os.getcwd()
+    if not os.path.exists(directory):
+        logging.error(f"Directory not found: {directory}")
+        return
 
     # Find all .pcd.br files
     pcd_br_files = []
-    for root, _, files in os.walk(root_directory):
+    for root, _, files in os.walk(directory):
         for file in files:
             if file.endswith('.pcd.br'):
                 pcd_br_files.append(os.path.join(root, file))
+
+    if not pcd_br_files:
+        logging.warning(f"No .pcd.br files found in directory: {directory}")
+        return
+
+    logging.info(f"Found {len(pcd_br_files)} .pcd.br files to decompress.")
 
     # Create Ray tasks to decompress and replace each file
     tasks = [decompress_and_replace.remote(file) for file in pcd_br_files]
@@ -58,11 +72,22 @@ def find_and_replace_pcd_br():
     # Execute the tasks in parallel
     ray.get(tasks)
 
-    print("All decompression and replacement tasks completed.")
+    logging.info("All decompression and replacement tasks completed.")
 
-# Run the script
-if __name__ == "__main__":
-    find_and_replace_pcd_br()
+def main():
+    parser = argparse.ArgumentParser(description="Decompress Brotli-compressed .pcd.br files.")
+    parser.add_argument(
+        "-d", "--directory", 
+        default=os.path.join(os.path.dirname(os.path.abspath(__file__)), '../data'),
+        help="Directory to search for .pcd.br files (default: ../data)"
+    )
+    args = parser.parse_args()
+
+    logging.info(f"Using directory: {args.directory}")
+    find_and_replace_pcd_br(args.directory)
 
     # Shutdown Ray after tasks are complete
     ray.shutdown()
+
+if __name__ == "__main__":
+    main()

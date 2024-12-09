@@ -11,7 +11,7 @@ For this sandbox dataset, raw data has been heavily processed and distilled to m
 ## Structure and Datatypes
 The dataset is organized using a georeferenced format based on the UK National Unique Property Reference Number (UPRN). Each UPRN is linked to WGS84 latitude, longitude coordinates, and easting and northing in the British National Grid (BNG). Data is stored in directories by UPRN, with subfolders for date, time, and whether it was day or night. An example folder structure is provided below:
 
-We have divided the data into six parts of approximately 10GB each, this is to hopefully increase the ease of downloading this dataset. 
+We have divided the data into six parts of approximately 10GB each, this is to hopefully increase the ease of downloading this dataset. Each part could be used independently without downloading the other parts if downloading a dataset of this size is an issue.
 ```
 data
 └── part-1
@@ -94,8 +94,7 @@ A [decompression script](./scripts/br_decompress.py) is available in the [script
 ## Final Remarks
 While folders should generally contain all relevant data, there may be instances where certain sensor modalities are missing due to temporary hardware unavailability.
 
-For more information about the data, predominantly pertaining to known issues and recommendations please see some our [notes](data.md).
-
+For more information about the data as well as known issues and limitations with it, please see some our [notes](data.md) Also see the scripts folder and its associated [notes](./scripts/scripts.md) for information on some convenient scripts for handling the data.
 
 - **Dataset Size:** Approximately 60GB unzipped; an additional 10GB if all point clouds are decompressed.
 - **Community:** Reach out to us and find more information on our [Discourse](https://community.xri.online/). You can also connect with us on [LinkedIn](https://www.linkedin.com/company/xri-online).
