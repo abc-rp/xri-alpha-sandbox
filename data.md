@@ -85,4 +85,4 @@ We screened the raw data to find LiDAR data with few dropped frames, but it is s
 
 ICP registration can also fail completely resulting in dense but unaligned pointclouds. A single centre frame has been provided as a failback pointcloud in the event of an unusable merged pointcloud.
 
-We recommend the use of [Open3D](https://www.open3d.org/) for anyone wishing to do anything programmatic directly with the pointclouds in python. They also provide direct integration with the pytorch and tensorflow ML frameworks.
+We recommend the use of [Open3D](https://www.open3d.org/) for anyone wishing to do anything programmatic directly with the pointclouds in python. This library also provides direct [integration](https://github.com/isl-org/Open3D-ML) with the pytorch and tensorflow ML frameworks.
