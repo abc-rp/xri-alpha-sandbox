@@ -36,7 +36,7 @@ This masking is fixed and is empirically ok, programmatically calculating a meth
 Additionally when working with the IR data there are some assumptions to note about the way in which radiometic temperature pixels themselves are calculated. 
 
 - The formula requires the distance of each pixel from the detector, currently this is a sensible hard coded value, we are in the process of calculating this distance from the lidar. 
-- Building materials tend to be in a narrow range of emissivities $\epsilon\in [~0.85,~0.92]$, we currently hard code a single sensible value for emissivity but are developing methods for estimating building materials dynamically.
+- Building materials tend to be in a narrow range of emissivities $\Epsilon\in [~0.85,~0.92]$, we currently hard code a single sensible value for emissivity but are developing methods for estimating building materials dynamically.
 - The formula only governs a certain region of materials in a number of variables. This means that temperature arrays calculated for buildings during the night are valid sources of data for understanding temperature. 
 - During the day, we are in a reflectance dominated regime due to the influence of the sun, radiometric temperatures calculated in this regime are not reliable. 
 - The sky is an object outside the scope of the radiometric temperature calculation, this is a low reflectance, lpw emissivity regime that our radiometric temperature calcualtions cannot really say anything meaningful about.
