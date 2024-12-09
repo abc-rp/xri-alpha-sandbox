@@ -1,5 +1,5 @@
 
-# xRI Alpha Sandbox Dataset
+# [xRI Alpha Sandbox Dataset](https://www.xri.online/)
 
 
 ## Summary
@@ -87,11 +87,12 @@ Install binaries directly or use Windows Subsystem for Linux (WSL) and follow th
 pip install brotli 
 ```
 
-A decompression script is available in the root of the alpha-sandbox directory to streamline this process.
+A decompression script is available in the scripts folder of the xri-alpha-sandbox repository to streamline this process.
 
 ## Final Remarks
 While folders should generally contain all relevant data, there may be instances where certain sensor modalities are missing due to temporary hardware unavailability.
 
+
 - **Dataset Size:** Approximately 60GB unzipped; an additional 10GB if all point clouds are decompressed.
-- **Community:** Reach out to us and find more information on our [Discourse](https://community.xri.online/).
+- **Community:** Reach out to us and find more information on our [Discourse](https://community.xri.online/). You can also connect with us on [LinkedIn](https://www.linkedin.com/company/xri-online).
 - **Support:** For assistance, contact [gary@xri.online](mailto:gary@xri.online) or [nathaniel@xri.online](mailto:nathaniel@xri.online).
