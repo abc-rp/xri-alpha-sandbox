@@ -50,7 +50,7 @@ The RGB images have also been processed using [Meta's Segment Anything Model (SA
   - Masked pixels should be ignored.
   - Sky pixels are generally invalid for analysis due to differing thermal physics.
 - **Colorized Image:** For visualization purposes only (`ir_color_<datetime>.png`).
-- **Recommendation:** Use temperature arrays captured at night to avoid solar influence unless analyzing thermal albedo.
+- **Recommendation:** Use temperature arrays captured at night to avoid solar influence.
 
 #### LiDAR
 - **Panoramas:** Four 360-degree greyscale panoramas are provided:
