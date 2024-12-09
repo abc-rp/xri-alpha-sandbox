@@ -1,6 +1,7 @@
 
 # [xRI Alpha Sandbox Dataset](https://www.xri.online/)
 
+For the most up to date version of these docs please see our [github repository](https://github.com/abc-rp/xri-alpha-sandbox).
 
 ## Summary
 During the winter of 2024, two Built Environment Scanning Systems (BESS) were deployed at scale across eight UK cities. BESS is a platform equipped with optical and infrared cameras, LiDAR as primary sensors, and a suite of additional sensors to derive georeferenced information about the built environment. Each BESS records several terabytes of data weekly.
@@ -88,7 +89,7 @@ Install binaries directly or use Windows Subsystem for Linux (WSL) and follow th
 pip install brotli 
 ```
 
-A decompression script is available in the scripts folder of the xri-alpha-sandbox repository to streamline this process.
+A [decompression script](./scripts/br_decompression.py) is available in the [scripts](./scripts/) folder of the xri-alpha-sandbox repository to streamline this process.
 
 ## Final Remarks
 While folders should generally contain all relevant data, there may be instances where certain sensor modalities are missing due to temporary hardware unavailability.
