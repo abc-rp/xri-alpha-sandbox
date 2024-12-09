@@ -51,13 +51,13 @@ We have three 360 degree grey scale panormas these are:
   <img src="images/nearir_2024-03-25-19-43-47.png  " alt="nearir image" width="90%">
 </p>
 
-- The range modality provides the distance from the LiDAR sensor to objects in the environment. Each pixel in this image represents a distance measurement in meters or millimeters, creating a depth map of the scene.
+- The range modality provides the distance from the LiDAR sensor to objects in the environment. Each pixel in this image represents a distance measurement in millimeters, creating a depth map of the scene.
 
 <p align="center">
   <img src="images/range_2024-03-25-19-43-47.png  " alt="nearir image" width="90%">
 </p>
 
-- The reflectivity image captures the intensity of the LiDAR signal that bounces back to the sensor. Reflectivity depends on the surface material and angle of incidence, making it useful for distinguishing between materials or identifying road markings, signs, and other objects.#
+- The reflectivity image captures the intensity of the LiDAR signal that bounces back to the sensor. Reflectivity depends on the surface material and angle of incidence, making it useful for distinguishing between materials or identifying road markings, signs, and other objects.
 
 <p align="center">
   <img src="images/reflec_2024-03-25-19-43-47.png  " alt="nearir image" width="90%">
@@ -76,3 +76,11 @@ These 3D maps can be viewed using a tool like `pcl_viewer` (`brew install pcl`, 
 <p align="center">
   <img src="images/icp_merged.png  " alt="rgb image" width="90%">
 </p>
+
+Similarly to the depth map we can derive distances from the pointclouds.
+
+During the alpha capture period we experienced some issues with lidar robustness resulting in dropped or partially captured pointcloud frames. This has been somewhat handled, this results in fewer merged frames and less dense ICP registered pointclouds. Dropped frames can also result in black patches in the panoramas. 
+
+We screened the raw data to find LiDAR data with few dropped frames, but it is still possible that such instances have made it into the alpha-sandbox.
+
+ICP registration can also fail completely resulting in dense but unaligned pointclouds. A single centre frame has been provided as a failback pointcloud in the event of an unusable merged pointcloud.
