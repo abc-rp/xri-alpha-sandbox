@@ -17,7 +17,7 @@ ray.init(num_cpus=max(1, cpu_count() // 2))
 # Supported types and their corresponding file patterns
 FILE_PATTERNS = {
     'icp_pcd': ['icp_merged.pcd.br', 'icp_merged.pcd'],
-    'centre': ['centre.pcd.br', 'centre.pcd.br'],
+    'centre_pcd': ['centre.pcd.br', 'centre.pcd.br'],
     'nearir': ['nearir_*.png'],
     'range': ['range_*.png'],
     'reflec': ['reflec_*.png'],
