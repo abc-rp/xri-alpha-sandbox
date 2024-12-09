@@ -11,7 +11,7 @@ For this sandbox dataset, raw data has been heavily processed and distilled to m
 ## Structure and Datatypes
 The dataset is organized using a georeferenced format based on the UK National Unique Property Reference Number (UPRN). Each UPRN is linked to WGS84 latitude, longitude coordinates, and easting and northing in the British National Grid (BNG). Data is stored in directories by UPRN, with subfolders for date, time, and whether it was day or night. An example folder structure is provided below:
 
-We have divided the data into six parts of approximately 10GB each, this is to hopefully increase the ease of downloading this dataset. 
+We have divided the data into six parts of approximately 10GB each, this is to hopefully increase the ease of downloading this dataset. Each part could be used independently without downloading the other parts if downloading a dataset of this size is an issue.
 ```
 data
 └── part-1
