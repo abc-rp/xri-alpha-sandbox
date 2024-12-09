@@ -55,5 +55,5 @@ We also have two pointclouds one is a single frame that is closest to orthogonal
 These 3D maps can be viewed using a tool like `pcl_viewer` (`brew install pcl`, etc...) we see an example of a pointcloud below:
 
 <p align="center">
-  <img src="images/icp_merged.png  " alt="rgb image" width="45%">
+  <img src="images/icp_merged.png  " alt="rgb image" width="90%">
 </p>
