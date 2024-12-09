@@ -11,17 +11,22 @@ For this sandbox dataset, raw data has been heavily processed and distilled to m
 The dataset is organized using a georeferenced format based on the UK National Unique Property Reference Number (UPRN). Each UPRN is linked to WGS84 latitude, longitude coordinates, and easting and northing in the British National Grid (BNG). Data is stored in directories by UPRN, with subfolders for date, time, and whether it was day or night. An example folder structure is provided below:
 
 ```
-100100136730
-└── 2024-04-08-18-32-11_day
-    ├── centre.pcd.br
-    ├── icp_merged.pcd.br
-    ├── ir_color_2024-04-08-18-38-01.png
-    ├── ir_temp_2024-04-08-18-38-01.npz
-    ├── nearir_2024-04-08-18-38-01.png
-    ├── range_2024-04-08-18-38-01.png
-    ├── reflec_2024-04-08-18-38-01.png
-    ├── rgb_2024-04-08-18-38-01.jpeg
-    └── signal_2024-04-08-18-38-01.png
+data
+└── part-1
+    └──100100136730
+        └── 2024-04-08-18-32-11_day
+            ├── centre.pcd.br
+            ├── icp_merged.pcd.br
+            ├── ir_color_2024-04-08-18-38-01.png
+            ├── ir_temp_2024-04-08-18-38-01.npz
+            ├── nearir_2024-04-08-18-38-01.png
+            ├── range_2024-04-08-18-38-01.png
+            ├── reflec_2024-04-08-18-38-01.png
+            ├── rgb_2024-04-08-18-38-01.jpeg
+            ├── rgb_2024-04-08-18-38-01_anon_masks.json
+            ├── sam_mask_rgb_2024-04-08-18-38-01.jpeg
+            ├── sam_mask_rgb_2024-04-08-18-38-01.npz
+            └── signal_2024-04-08-18-38-01.png
 ```
 
 ### Available Datatypes
