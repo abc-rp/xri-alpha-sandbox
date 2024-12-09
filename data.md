@@ -28,7 +28,7 @@ Similarly the IR images have been rectified to correct for distortion for their 
 Unlike the RGB however the outermost regions of the IR images and temperature arrays have been masked out, this is due to hot edges due to the IR detector heating itself up during operation. In the temperature arrays the masked areas are NaN elements in the numpy array.
 
 <p align="center">
-  <img src="images/ir_color_2024-03-05-20-29-54.png  " alt="rgb image" width="45%">
+  <img src="images/ir_color_2024-03-05-20-29-54.png  " alt="ir image" width="45%">
 </p>
 
 This masking is fixed and is empirically ok, programmatically calculating a method for a reliable "hot edges" mask is outstanding work. Hence it is possible that problematic self-heat from the detector does systematically creep into some temperature arrays.
@@ -39,4 +39,21 @@ Additionally when working with the IR data there are some assumptions to note ab
 - Building materials tend to be in a narrow range of emissivities $\epsilon\in [0.85,0.93]$, we currently hard code a single sensible value for emissivity but are developing methods for estimating building materials dynamically.
 - The formula only governs a certain region of materials in a number of variables. This means that temperature arrays calculated for buildings during the night are valid sources of data for understanding temperature. 
 - During the day, we are in a reflectance dominated regime due to the influence of the sun, radiometric temperatures calculated in this regime are not reliable. 
-- The sky is an object outside the scope of the radiometric temperature calculation, this is a low reflectance, lpw emissivity regime that our radiometric temperature calculations cannot really say anything meaningful about.
+- The sky is an object outside the scope of the radiometric temperature calculation, this is a low reflectance, low emissivity regime that our radiometric temperature calculations cannot really say anything meaningful about.
+
+## LiDAR
+
+We have three 360 degree grey scale panormas these are:
+
+- Near-infrared (NIR) capturing light in the near-infrared spectrum (just beyond visible light). NIR is often used to assess vegetation health, surface properties, and for capturing detailed textures in low-light conditions.
+- The range modality provides the distance from the LiDAR sensor to objects in the environment. Each pixel in this image represents a distance measurement in meters or millimeters, creating a depth map of the scene.
+- The reflectivity image captures the intensity of the LiDAR signal that bounces back to the sensor. Reflectivity depends on the surface material and angle of incidence, making it useful for distinguishing between materials or identifying road markings, signs, and other objects.
+- The signal strength or return signal intensity measures the quality of the LiDAR return. Stronger signals usually indicate clearer, more reliable measurements. It can also reflect surface properties and environmental conditions.
+
+We also have two pointclouds one is a single frame that is closest to orthogonal to the UPRN, the other is a dense, orchstrated pointcloud created by merging 10 pointcloud frames on either side of the most orthogonal frame using the [Iterative Closes Point (ICP) registration algorithm](http://ki-www.cvl.iis.u-tokyo.ac.jp/class2013/2013w/paper/correspondingAndRegistration/03_Levoy.pdf). 
+
+These 3D maps can be viewed using a tool like `pcl_viewer` (`brew install pcl`, etc...) we see an example of a pointcloud below:
+
+<p align="center">
+  <img src="images/icp_merged.png  " alt="rgb image" width="45%">
+</p>
