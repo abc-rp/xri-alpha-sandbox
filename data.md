@@ -46,9 +46,28 @@ Additionally when working with the IR data there are some assumptions to note ab
 We have three 360 degree grey scale panormas these are:
 
 - Near-infrared (NIR) capturing light in the near-infrared spectrum (just beyond visible light). NIR is often used to assess vegetation health, surface properties, and for capturing detailed textures in low-light conditions.
+
+<p align="center">
+  <img src="images/nearir_2024-03-25-19-43-47.png  " alt="nearir image" width="90%">
+</p>
+
 - The range modality provides the distance from the LiDAR sensor to objects in the environment. Each pixel in this image represents a distance measurement in meters or millimeters, creating a depth map of the scene.
-- The reflectivity image captures the intensity of the LiDAR signal that bounces back to the sensor. Reflectivity depends on the surface material and angle of incidence, making it useful for distinguishing between materials or identifying road markings, signs, and other objects.
+
+<p align="center">
+  <img src="images/range_2024-03-25-19-43-47.png  " alt="nearir image" width="90%">
+</p>
+
+- The reflectivity image captures the intensity of the LiDAR signal that bounces back to the sensor. Reflectivity depends on the surface material and angle of incidence, making it useful for distinguishing between materials or identifying road markings, signs, and other objects.#
+
+<p align="center">
+  <img src="images/reflec_2024-03-25-19-43-47.png  " alt="nearir image" width="90%">
+</p>
+
 - The signal strength or return signal intensity measures the quality of the LiDAR return. Stronger signals usually indicate clearer, more reliable measurements. It can also reflect surface properties and environmental conditions.
+
+<p align="center">
+  <img src="images/signal_2024-03-25-19-43-47.png  " alt="nearir image" width="90%">
+</p>
 
 We also have two pointclouds one is a single frame that is closest to orthogonal to the UPRN, the other is a dense, orchstrated pointcloud created by merging 10 pointcloud frames on either side of the most orthogonal frame using the [Iterative Closes Point (ICP) registration algorithm](http://ki-www.cvl.iis.u-tokyo.ac.jp/class2013/2013w/paper/correspondingAndRegistration/03_Levoy.pdf). 
 
