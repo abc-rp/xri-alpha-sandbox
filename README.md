@@ -94,6 +94,8 @@ A [decompression script](./scripts/br_decompression.py) is available in the [scr
 ## Final Remarks
 While folders should generally contain all relevant data, there may be instances where certain sensor modalities are missing due to temporary hardware unavailability.
 
+For more information about the data, predominantly pertaining to known issues and recommendations please see some our [notes](data.md).
+
 
 - **Dataset Size:** Approximately 60GB unzipped; an additional 10GB if all point clouds are decompressed.
 - **Community:** Reach out to us and find more information on our [Discourse](https://community.xri.online/). You can also connect with us on [LinkedIn](https://www.linkedin.com/company/xri-online).
