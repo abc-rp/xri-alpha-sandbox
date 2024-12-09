@@ -89,7 +89,7 @@ Install binaries directly or use Windows Subsystem for Linux (WSL) and follow th
 pip install brotli 
 ```
 
-A [decompression script](./scripts/br_decompression.py) is available in the [scripts](./scripts/) folder of the xri-alpha-sandbox repository to streamline this process.
+A [decompression script](./scripts/br_decompress.py) is available in the [scripts](./scripts/) folder of the xri-alpha-sandbox repository to streamline this process.
 
 ## Final Remarks
 While folders should generally contain all relevant data, there may be instances where certain sensor modalities are missing due to temporary hardware unavailability.
