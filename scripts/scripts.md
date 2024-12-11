@@ -55,7 +55,7 @@ python spec_modalities.py -d <directory_path> -t <type>
 ## `loaders.py`
 
 ### Description
-This script provides utility functions for loading pointclouds, range panoroma, and the radiometric temperature `.npz` files. This to show you how to load and use some file types you may not be familiar with
+This script provides utility functions for loading pointclouds, range panoroma, and the radiometric temperature `.npz` files. This to show you how to load and use some file types you may not be familiar with.
 
 ### Features
 1. **Point Cloud Processing:**
