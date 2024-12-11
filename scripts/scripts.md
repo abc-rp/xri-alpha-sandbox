@@ -64,12 +64,22 @@ This script provides utility functions for loading pointclouds, range panoroma, 
 
 2. **Range Panorama:**
    - Loads range panorama images and calculates the median pixel distance.
+   - **Distance Calculation:** 
+     - `euclidean_distance`: Computes the 3D Euclidean distance between two points based on their coordinates in a LiDAR range panorama. Uses trigonometry and the field-of-view properties of the LiDAR.
+     - Inputs include the range panorama image path, pixel coordinates of the points, and optional LiDAR FOV and mounting angle settings.
+   - **Visualization:**
+     - `save_image_with_points_and_line`: Modifies the range panorama to highlight the points and the line connecting them. The output is saved as a PNG file in the specified directory.
 
 3. **Temperature Data Processing:**
    - Loads the temperature `.npz` files and computes the median temperature, excluding NaN mask values.
 
 4. **Random File Selection:**
    - Finds a random file matching a specific pattern within a directory.
+
+### Usage
+- To calculate the Euclidean distance from a LiDAR range panorama, use the `euclidean_distance` function:
+  ```python
+  distance = euclidean_distance(image_path, point1, point2)
 
 
 ---
