@@ -18,7 +18,7 @@ for i in {1..6}; do
     cd "$(dirname "$repo_dir")"
 
     # Collect all tracked and untracked files, but not ignored files
-    file_list=$(cd "$repo_dir" && git ls-files --cached --others --exclude-standard)
+    file_list=$(cd "$repo_dir" && git ls-files --cached --exclude-standard)
 
     # Prepare the list of files prefixed with repo_name/
     files_to_zip=""
