@@ -9,9 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0]
+
 ### Added
 
 - Add zip script.
+
+### Changed
+
+- Changed licence file to click through licence.
 
 ---
 

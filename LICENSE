@@ -1,41 +1,112 @@
-LICENSE
+xRI Pilot Terms and Conditions
 
-This repository contains proprietary data or software, which is made available ONLY to parties with an existing, signed license or contract issued by the copyright holder or owner (the "Licensor").
+=======================================================================
 
----
+1. Introduction
+    1.1 This xRI Pilot Agreement is agreed between xRI and the entity entering into these Terms (“you” and “your”) (each a “party” and together the “parties”) in order for xRI to provide you with a licence to access and use a certain dataset or datasets for you to internally evaluate the suitability of that dataset or those datasets for your particular needs.
+    1.2 In consideration of the sum of the promises and obligations set out herein the parties agree to enter into and abide by the terms of this Agreement.
+    1.3 By clicking “I accept” below and/or by accessing the Evaluation Data, you agree to be bound by and comply with these xRI Pilot Terms and Conditions.
+2. Definitions and Interpretation:
+    2.1 In this Agreement the following words and phrases shall have the following meanings:
+        Agreement: means these xRI Pilot Terms and Conditions.
+        Background IPR: means any and all Intellectual Property Rights that are owned by or licensed to a party which are or have been developed independently of the Agreement. The Evaluation Data and any other data or information provided to you by xRI shall constitute xRI’s Background IPR.
+        Confidential Information: means all confidential or proprietary information (however recorded or preserved) that is disclosed or made available whether before or after the date of this Agreement (in any form or medium), directly or indirectly, by the Provider to the Recipient. The Evaluation Data and any other data or information provided to you by xRI shall constitute xRI’s Confidential Information. 
+        Documentation: means the documentation made available by xRI in connection with this Agreement (excluding the Evaluation Data itself).
+        Evaluation Data: means the dataset made available to you by xRI pursuant to this Agreement as further set out in Schedule 1.
+        Fee: there is no fee associated with access to the Evaluation Data under the terms of this licence.
+        Intellectual Property Rights: means patents, utility models, rights to inventions, copyright and neighbouring and related rights, moral rights, trade marks and service marks, business names and domain names, rights in get-up and trade dress, goodwill and the right to sue for passing off or unfair competition, rights in designs, rights in computer software, database rights, rights to use, and protect the confidentiality of, confidential information (including know-how and trade secrets) and all other intellectual property rights, in each case whether registered or unregistered and including all applications and rights to apply for and be granted, renewals or extensions of, and rights to claim priority from, such rights and all similar or equivalent rights or forms of protection which subsist or will subsist now or in the future in any part of the world.
+        Personal Data: means any information which is or are related to an identified or identifiable natural person.
+        Provider: means a party to this Agreement which discloses or makes available directly or indirectly Confidential Information.
+        Purpose: means your internal evaluation of the Evaluation Data for your own purposes.
+        Recipient: means a party to this Agreement which receives or obtains directly or indirectly Confidential Information.
+        Start Date: means the date you click through and accept these xRI Pilot Terms and Conditions.
+        xRI: means Trustmark Research and Innovation Limited, a company registered in England and Wales with company number 14858924 and its registered office at The Square Arena Business Centre, Basingview, Basingstoke, Hampshire, United Kingdom, RG21 4EB.
+    2.2 Clause, schedule and paragraph headings shall not affect the interpretation of this Agreement. A person includes an individual, corporate or unincorporated body (whether or not having separate legal personality) and that person’s legal and personal representatives, successors or permitted assigns. 
+    2.3 A reference to a statute or statutory provision is a reference to it as amended, extended or re-enacted from time to time. 
+    2.4 Any words following the terms including, include, in particular, for example or any similar expression shall be interpreted as illustrative and shall not limit the sense of the words preceding those terms. 
+    2.5 A reference to a company shall include any company, corporation or other body corporate, wherever and however incorporated or established. A reference to writing or written excludes fax but includes email. 
+    2.6 Unless the context otherwise requires: (a) words in the singular shall include the plural and in the plural shall include the singular; and (b) a reference to one gender shall include a reference to the other genders. 
+3. Confidentiality and Non-Disclosure
+    3.1 In consideration of xRI agreeing to disclose Confidential Information to you, you undertake to xRI that you shall:
+        3.1.1 keep the Confidential Information secret and confidential;
+        3.1.2 not use or exploit the Confidential Information in any way except for or in connection with this Agreement; and
+        3.1.3 only make disclosure of the Confidential Information in accordance with clauses 3.2 and 3.3. 
+        Any other disclosure can only be made with xRI’s prior written consent.
+    3.2 You may disclose the Confidential Information to any of your officers, employees, advisers, subcontractors and contractors that need to know the relevant Confidential Information for the purposes of exercising your rights and performing your obligations under this Agreement only, provided that you procure that each such person to whom the Confidential Information is disclosed complies with the obligations set out in this clause 3 as if they were you and procures that any such person is legally or contractually bound by similar obligations of confidentiality to those set out herein.
+    3.3 You may disclose the Confidential Information to the minimum extent required by:
+        3.3.1 any order of any court of competent jurisdiction or any regulatory, judicial, governmental or similar body or taxation authority of competent jurisdiction; 
+        3.3.2 the rules of any listing authority or stock exchange on which its shares are listed; or
+        3.3.3 the laws or regulations of any country to which its affairs are subject.
+    3.4 The obligations set out in clauses 3.2 and 3.3 shall not apply, or shall cease to apply, to Confidential Information which you can show to xRI’s reasonable satisfaction:
+        3.4.1 that is, or becomes, generally available to the public other than as a direct or indirect result of the information being disclosed by you in breach of this clause 3; or
+        3.4.2 was already lawfully known to you before it was disclosed by xRI; or
+        3.4.3 has been received by you from a third-party source that is not connected with xRI and that such source was not under any obligation of confidence in respect of that information.
+    3.5 If requested by xRI at any time, you shall immediately destroy or return to xRI all documents and other records of the Confidential Information that have been supplied to or generated by you. If the Confidential Information is stored in electronic form, you shall permanently erase all such Confidential Information from your computer and communications systems and devices (to the extent technically practicable). xRI may request that you certify in writing that you have complied with your obligations in this clause 3.5.
+    3.6 You acknowledge and agree that the Confidential Information may not be accurate or complete and xRI makes no warranty or representation (whether express or implied) concerning the Confidential Information, or its accuracy or completeness. 
+    3.7 Without prejudice to any other rights or remedies that xRI may have, you acknowledge and agree that damages alone would not be an adequate remedy for any breach by you of the terms of this clause 3. Accordingly, xRI shall be entitled to the remedies of injunctions, specific performance or other equitable relief for any threatened or actual breach of this clause 3.
+4. Licence
+    4.1 xRI hereby grants to you a non-exclusive, non-transferable, limited and revocable licence to access and use the Evaluation Data and the Documentation during the term of this Agreement solely for the agreed Purpose.
+    4.2 Unless agreed otherwise with xRI in writing, you shall not:
+        4.2.1 use the Evaluation Data other than for the Purpose or as otherwise specified in this clause 4 without xRI’s prior written consent;
+        4.2.2 make backup copies of the Evaluation Data other than as may be necessary for its lawful use;
+        4.2.3 use the Evaluation Data in a production environment;
+        4.2.4 commercialise the Evaluation Data or otherwise use the Evaluation Data for or in connection with any revenue-generating product or service;
+        4.2.5 except as expressly stated in this clause 4, copy, reverse engineer, decompile or disassemble, the Evaluation Data in whole or in part, including in order to extract or extrapolate any Personal Data from the dataset for any reason;
+        4.2.6 access or use any part of the Evaluation Data or Documentation in order to build a product or service which competes with the Evaluation Data or any of xRI’s products or services;
+        4.2.7 license, sell, rent, lease, transfer, assign, distribute, display, disclose, or otherwise commercially exploit, or otherwise make the Evaluation Data or Documentation available to any third party; or
+        4.2.8 attempt to obtain, or assist third parties in obtaining, access to the Evaluation Data, other than as provided under this clause 4. 
+    4.3 You shall use all reasonable endeavours to prevent any unauthorised access to, or use of, the Evaluation Data and Documentation and, in the event of any such unauthorised access or use, promptly notify xRI. The rights provided under this clause 4 are granted to you only, and shall not be considered granted to any other person or affiliate.
+    4.4 You shall be responsible for the acts and omissions of all persons who access or use the Evaluation Data or Documentation under or in connection with this Agreement.
+    4.5 You shall provide xRI with all necessary co-operation and all necessary access to such information as may be required by xRI in order to provide the Evaluation Data.
+    4.6 You acknowledge that the Evaluation Data may contain Personal Data, including photographs of individuals as well as vehicle registration plates, and that xRI shall be the data controller of any such Personal Data. You shall not be permitted to process, use or access this Personal Data for any reason other than as explicitly set out in this Agreement.
+    4.7 Any breach by you of this clause 4 shall be deemed a material breach incapable of remediation for the purposes of clause 8.3.
+5. xRI Obligations
+    5.1 xRI shall provide the Evaluation Data to you on an as-is basis and shall provide such reasonable assistance and support as you may reasonably request in order to use and assess the Evaluation Data in connection with this Agreement.
+    5.2 xRI does not warrant that the Evaluation Data shall be fit for a particular purpose, accurate or complete.
+    5.3 All other conditions, warranties or other terms which might have effect between the parties or be implied or incorporated into this Agreement or any collateral contract, whether by statute, common law or otherwise, are hereby excluded, including the implied conditions, warranties or other terms as to satisfactory quality, fitness for purpose or the use of reasonable skill and care.
+6. Intellectual Property Rights
+    6.1 Each party (or its licensors as applicable) shall own all right, title and interest (including Intellectual Property Rights) in and to its Background IPR. For the avoidance of doubt, the Evaluation Data shall form part of xRI’s Background IPR.
+    6.2 You agree that your licence to use the Evaluation Data is for evaluation purposes only, and you shall not use the Evaluation Data in order to, or in any way that will or may, create any new Intellectual Property Rights.
+7. Limit of liability
+    7.1 Subject to clause 7.2, except as expressly provided in this Agreement, all warranties, representations, conditions and all other terms of any kind whatsoever implied by statute or common law are, to the fullest extent permitted by applicable law, excluded from this Agreement and xRI shall have no liability for any damage caused by errors or omissions in the Evaluation Data, or any actions taken by you on the basis of the Evaluation Data.
+    7.2 Nothing in this Agreement limits or excludes the liability of a party for death or personal injury caused by its negligence, for fraud or fraudulent misrepresentation, or for any other liability which cannot be limited or excluded by applicable law.
+    7.3 Subject to clause 7.2, xRI shall not be liable whether in tort (including for negligence or breach of statutory duty), contract, misrepresentation, restitution or otherwise for loss of profits; loss of sales or business; loss of anticipated savings; loss of agreement or contracts; depletion of goodwill and/or similar losses; loss or corruption of data or information (other than as a result of a breach of clause 3); pure economic loss; or any special, indirect or consequential loss, costs, damages, charges or expenses however arising under this Agreement.
+    7.4 Subject to clause 7.2, xRI’s total aggregate liability whether in contract, tort (including negligence or breach of statutory duty), misrepresentation, restitution or otherwise, arising under or in connection with this Agreement shall be limited to an amount equal to £1.
+    7.5 Nothing in this Agreement excludes your liability for any breach, infringement, misuse or misappropriation of xRI’s Intellectual Property Rights (which for the avoidance of doubt shall include the Evaluation Data).
+8. Termination
+    8.1 This Agreement shall come into force on the Start Date and, unless terminated earlier in accordance with its terms, shall remain in effect until the Purpose has been fulfilled, at which point it shall automatically expire.
+    8.2 xRI may terminate this Agreement at any time for any or for no reason on thirty (30) days’ notice to you.
+    8.3 Either party may terminate this Agreement immediately on notice to the other party if the other party commits a material breach of any term of this Agreement and, if such breach is remediable, fails to remedy such breach within 30 days of being notified to do so by the terminating party.
+    8.4 Upon termination or expiry of this Agreement for any reason:
+        8.4.1 except where otherwise specified, all licences granted under this Agreement shall immediately terminate and you shall immediately cease all use of the Evaluation Data and the Documentation; 
+        8.4.2 each party shall return and make no further use of any equipment, property, documentation and other items (and all copies of them) belonging to the other party; 
+        8.4.3 upon xRI’s request, you shall destroy any and all copies of the Evaluation Data you have in your possession or control and shall certify in writing to xRI that you have done so;
+        8.4.4 any rights, remedies, obligations or liabilities of the parties that have accrued up to the date of termination, including the right to claim damages in respect of any breach of the Agreement which existed at or before the date of termination shall not be affected or prejudiced.
+9. General
+    9.1 Survival. Any provision of this Agreement that expressly or by implication is intended to come into or continue in force on or after termination or expiry of this Agreement shall remain in full force and effect.
+    9.2 Variation. No variation, nor waiver of any right or remedy of this Agreement be effective unless it is in writing and signed by the parties (or their authorised representatives). A delay or failure to exercise, or the single or partial exercise of, any right or remedy shall not waive that or any other right or remedy, nor shall it prevent or restrict the further exercise of that or any other right or remedy.
+    9.3 Rights and remedies. Except as expressly provided in this Agreement, the rights and remedies provided under this Agreement are in addition to, and not exclusive of, any rights or remedies provided by law.
+    9.4 Entire Agreement. This Agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous and contemporaneous agreements, promises, assurances and understandings between them relating to its subject matter. 
+    9.5 Assignment. Neither party shall, assign, novate, transfer, charge, sub-contract or deal in any other manner with all or any of its rights or obligations under this Agreement without the prior written consent of the other party.
+    9.6 No partnership. Nothing in this Agreement is intended to or shall operate to create a partnership between the parties, or authorise either party to act as agent for the other, and neither party shall have the authority to act in the name or on behalf of or otherwise to bind the other in any way.
+    9.7 Third party rights. This Agreement does not give rise to any rights under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of this Agreement.
+    9.8 Governing law and jurisdiction. This Agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and interpreted in accordance with English law. Each party irrevocably agrees that the courts of England shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with this Agreement or its subject matter or formation (including non-contractual disputes or claims).
 
-AUTHORIZED USE
 
-Access to, and use of, the contents of this repository (the "Materials") is strictly governed by the terms of a specific, signed contract or license agreement between the Licensor and you (the Licensee).
+Schedule 1  – Evaluation Data
 
-By accessing or using these Materials, you confirm that:
-
-1. You have entered into a valid and binding contract/license agreement with the Licensor that permits such use.
-2. You agree to comply with all terms, conditions, and restrictions set forth in the signed agreement.
-
----
-
-NO LICENSE IN PLACE?
-
-If you DO NOT have a valid, signed license or contract with the Licensor, you are NOT authorized to access, use, copy, or distribute the contents of this repository. You must:
-
-- DELETE all copies of the Materials immediately, and
-- Contact the Licensor to discuss licensing terms if you require access.
-
----
-
-GOVERNING LAW
-
-This notice, and any dispute or claim arising out of or in connection with the unauthorized use of the Materials, shall be governed by and construed in accordance with the laws of England and Wales. The courts of England and Wales shall have exclusive jurisdiction to settle any such disputes or claims.
-
----
-
-CONTACT
-
-For inquiries regarding licenses, contracts, or authorization to use this data, please contact:
-
-info@xri.online
-
----
-
-NOTE: This notice does not confer any rights or licenses to users who do not have a valid agreement in place.
+A description of the evaluation data:
+Source of data
+    • Alpha quality dataset gathered across Winter 2023/24
+    • Data collected by 2 proprietary Built Environment Scanning Systems across 8 GB cities
+    • Sensor data obtained from LiDAR, RGB cameras, Infra-red cameras and GPS / INS / Odometry
+    • Information linked to UK National Unique Property Reference Numbers (UPRN), linking to WGS84 Lat / Long and / or British National Grid
+    • Information contained in the dataset may comprise Day or Night (Date time in UTC)
+Data size
+    • Approximately 60GB unzipped
+    • Approximately 10GB larger when all point clouds are decompressed
+Remarks on the data:
+    • This is alpha quality data for evaluation purposes only
+    • UPRNs contained within the dataset do not necessarily correlate to a specific city or region across the 8 GB cities. You should assume a random allocation
+    • Most UPRNs will have either day or night, but are unlikely to have both
+    • It is possible hardware was temporarily unavailable during certain scanning periods, hence some UPRNs will not have all sensor modalities available 
