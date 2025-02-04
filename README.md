@@ -42,6 +42,8 @@ data
   - `sam_mask_rgb_<datetime>.npz`
 - **Note:** RGB images are excluded for buildings captured at night.
 
+RGB images are provided in a linear colour space. To convert them to sRGB (commonly used in ML models), apply a gamma correction of `0.4545`.
+
 RGB images have been processed so that humans and vehicles have been masked. The anonomising masks themselves are contained in `rgb_<datetime>_anon_masks.json`. The [Mask R-CNN](https://arxiv.org/pdf/1703.06870) with the weights available from [pytorch](https://pytorch.org/vision/stable/models/generated/torchvision.models.detection.maskrcnn_resnet50_fpn.html#maskrcnn-resnet50-fpn) was used to generate these masks.  
 The RGB images have also been processed using [Meta's Segment Anything Model (SAM) 2](https://ai.meta.com/sam2/), this model attempts to find all the contiguous objects in an image and produce a mask for them. A visual representation of this is contained in `sam_mask_rgb_<datetime>.jpeg` and the masks themselves are in a compressed numpy array `sam_mask_rgb_<datetime>.npz`.
 
