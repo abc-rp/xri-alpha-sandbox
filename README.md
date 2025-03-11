@@ -1,6 +1,8 @@
 
 # [xRI Alpha Sandbox Dataset](https://www.xri.online/)
 
+[![Creative Commons License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 For the most up to date version of these docs please see our [github repository](https://github.com/abc-rp/xri-alpha-sandbox).
 
 ## Summary
